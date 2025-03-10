@@ -1,0 +1,330 @@
+body{
+    background-color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.encabesado{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #333333;
+
+}
+
+
+#textos{
+    display: flex;
+}
+
+#l{
+    padding-top: 0.5em;
+    padding-right: 2em;
+    color: #b91817;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+
+#jf{
+    padding-left: 2em;
+    padding-top: 0.5em;
+    width: 4em;
+    height: 4em;
+}
+
+.linea{
+    position: fixed;
+    background-color: #b91817;
+    width: 98.3vw;
+    height: 0.2em;
+    top: 5em;
+}
+
+#medio{
+    height: 34em;
+    display: flex;
+    padding-top: 10em;
+    padding-left: 5em;
+}
+
+#letras{
+    font-size: 2.8em;
+    color: #ffffff;
+    padding-right: 30vw;
+}
+
+#elBoton{
+    width: 13em;
+    height: 3em;
+    border-radius: 2em;
+    border: none;
+    color: #ffffff;
+    background-color: #b91817;
+    font-size: 0.4em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+
+#im{
+    border: 2.5px solid black;
+    width: 20em;
+    height: 20em;
+    border-radius: 160px;
+    box-shadow: 0px 4px 3px;
+}
+
+#sobreMi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 34em;
+}
+
+#tituSobre{
+    color: #ffffff;
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+#caja{
+    text-align: center;
+    width: 40em;
+}
+
+#text, #text2{
+    padding-bottom: 0.4em;
+    color: white;
+    font-size: 1.35em;
+}
+
+#Proyectos{
+    flex-direction: column;
+    padding-top: 7em;
+    display: flex;
+    height: 34em;
+}
+
+#horizontal{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tiProyectos{
+    text-align: center;
+    color: white;
+    padding-bottom: 2em;
+    font-size: 1.9em;
+}
+
+#primera{
+    border-radius: 10px;
+    border: 3px solid #b91817 ;
+    align-items: center;
+    text-align: center;
+    width: 20em;
+    height: 20em;
+    text-decoration: none;
+}
+
+#cohete{
+    border-radius: 30px;
+    padding-top: 1em;
+    text-decoration: none;
+    width: 13em;
+    height: 14em;
+}
+
+#textSpacex{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#segunda{
+    border-radius: 10px;
+    border: 3px solid #b91817 ;
+    align-items: center;
+    text-align: center;
+    width: 20em;
+    height: 20em;
+    text-decoration: none;
+}
+
+#kario{
+    border-radius: 30px;
+    padding-top: 1em;
+    text-decoration: none;
+    width: 9em;
+    height: 14em;
+}
+
+#textKario{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#tercera{
+    border-radius: 10px;
+    border: 3px solid #b91817 ;
+    align-items: center;
+    text-align: center;
+    width: 20em;
+    height: 20em;
+    text-decoration: none;
+}
+
+#mywork{
+    border-radius: 30px;
+    padding-top: 1em;
+    text-decoration: none;
+    width: 11em;
+    height: 14em;
+}
+
+#textMysql{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#habilidades{
+    padding-top: 5em;
+    height: 34em;
+}
+
+#tiHabilidades{
+    text-align: center;
+    color: white;
+    font-size: 1.9em;
+}
+
+#lenguajes{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fojava{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 10em;
+}
+
+#fopython{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 10em;
+}
+
+#fohtml{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 10em;
+}
+
+#fospring{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 10em;
+}
+
+#foMysql{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 10em;
+}
+
+#tiherramientas{
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#Herramientas{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+#fofigma{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 9em;
+}
+
+#fovisual{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 9em;
+}
+
+#focanva{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 9em;
+}
+
+#fonetbe{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 9em;
+}
+
+#contactos{
+    padding-top: 15em;
+    height: 38em;
+    display:flex;
+    flex-direction: column;
+}
+
+#acomodo{
+    justify-content: center;
+    display: flex;
+}
+
+#ticontactos{
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#fogit{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 9em;
+}
+
+#folinke{
+    border-radius: 3em;
+    padding: 2em;
+    width: 10em;
+    height: 9em;
+}
