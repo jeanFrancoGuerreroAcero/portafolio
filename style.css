@@ -1,5 +1,5 @@
 body{
-    background-color:#ffffff;
+    background-color:#95a6b7;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,7 @@ body{
     width: 100%;
     z-index: 1000;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #4b6b8b;
 }
 
 
@@ -27,13 +27,13 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 0.5em;
     padding-right: 2em;
-    color: #b91817;
+    color: white;
     font-size: 1.4em;
     text-decoration: none;
 }
 
 #l:hover{
-    color: black;
+    color: #0f2f57;
 }
 
 
@@ -45,7 +45,7 @@ body{
 }
 
 .linea2{
-    box-shadow: 1px 1px 20px #333333;
+    box-shadow: 1px 1px 20px #CBCACF;
     width: 98.3vw;
     height: 0.2em;
 }
@@ -60,7 +60,7 @@ body{
 #letras{
     margin-top: 2em;
     font-size:3em;
-
+    color: #0f2f57;
 }
 
 #juntas{
@@ -73,13 +73,14 @@ body{
 }
 
 #entreco{
-    color: #b91817;
+    color: white;
 }
 
 #textoAbajo{
     font-size: 0.5em;
     margin-top: -0.5em;
 }
+
 
 #elBoton{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -88,8 +89,8 @@ body{
     padding-left: 1.3em;
     padding-right: 1.3em;
     border-radius: 2em;
-    border:1px #b91817 solid ;
-    color: black;
+    border:1px #4b6b8b solid ;
+    color: #0f2f57;
     background-color: transparent;
     font-size: 0.4em;
     text-align: center;
@@ -103,7 +104,7 @@ body{
     padding-bottom: 0.6em;
     padding-left: 1.4em;
     padding-right: 1.4em;
-    background-color: #b91817;
+    background-color: #4b6b8b;
     color: #ffffff;
 }
 
@@ -139,7 +140,7 @@ body{
 #tituSobre{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
-    padding-bottom: 0.5em;
+    color: #0f2f57;
 }
 
 #caja{
@@ -150,6 +151,7 @@ body{
 #text, #text2{
     padding-bottom: 0.4em;
     font-size: 1.35em;
+    color: #0f2f57;
 }
 
 #Proyectos{
@@ -191,6 +193,7 @@ body{
     width: 20em;
     height: 20em;
     text-decoration: none;
+    background-color: aqua;
 }
 
 #primera:hover{
@@ -199,10 +202,10 @@ body{
 
 #cohete{
     border-radius: 30px;
-    padding-top: 1em;
+    margin-top: 1em;
     text-decoration: none;
-    width: 13em;
-    height: 14em;
+    width: 7em;
+    height: 7em;
 }
 
 #textSpacex{
