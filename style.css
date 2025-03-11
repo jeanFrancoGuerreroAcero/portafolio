@@ -1,5 +1,5 @@
 body{
-    background-color:#333333;
+    background-color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,8 +14,7 @@ body{
     width: 100%;
     z-index: 1000;
     padding: 10px 20px;
-    background-color: #333333;
-
+    background-color: white;
 }
 
 
@@ -23,12 +22,18 @@ body{
     display: flex;
 }
 
+
 #l{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 0.5em;
     padding-right: 2em;
     color: #b91817;
     font-size: 1.4em;
     text-decoration: none;
+}
+
+#l:hover{
+    color: black;
 }
 
 
@@ -39,53 +44,80 @@ body{
     height: 4em;
 }
 
-.linea{
-    position: fixed;
-    background-color: #b91817;
+.linea2{
+    box-shadow: 1px 1px 20px #333333;
     width: 98.3vw;
     height: 0.2em;
-    top: 5em;
 }
 
 #medio{
     height: 34em;
+    margin-top: 6em;
     display: flex;
-    padding-top: 10em;
-    padding-left: 5em;
+    justify-content: space-around;
 }
 
 #letras{
-    font-size: 2.8em;
-    color: #ffffff;
-    padding-right: 30vw;
+    margin-top: 2em;
+    font-size:3em;
+
+}
+
+#juntas{
+    display: flex;
+    margin-top: -1.5em;
+}
+
+#entre{
+    padding-right: 0.3em;
+}
+
+#entreco{
+    color: #b91817;
+}
+
+#textoAbajo{
+    font-size: 0.5em;
+    margin-top: -0.5em;
 }
 
 #elBoton{
-    width: 13em;
-    height: 3em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
     border-radius: 2em;
-    border: none;
-    color: #ffffff;
-    background-color: #b91817;
+    border:1px #b91817 solid ;
+    color: black;
+    background-color: transparent;
     font-size: 0.4em;
-    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
 
+#elBoton:hover{
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    background-color: #b91817;
+    color: #ffffff;
 }
 
 
 #im{
-    border: 2.5px solid black;
-    width: 20em;
-    height: 20em;
-    border-radius: 160px;
-    box-shadow: 0px 4px 3px;
+    width: 24em;
+    height: 24em;
+    border-radius: 20px;
+    margin-top: 6em;
 }
 
+
 #sobreMi{
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -93,8 +125,19 @@ body{
     height: 34em;
 }
 
+#arriba{
+    display: flex;
+}
+
+#logosobremi{
+    width: 3em;
+    height: 3em;
+    padding-right: 1.5em;
+    padding-top: 3.3em;
+}
+
 #tituSobre{
-    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
     padding-bottom: 0.5em;
 }
@@ -106,13 +149,12 @@ body{
 
 #text, #text2{
     padding-bottom: 0.4em;
-    color: white;
     font-size: 1.35em;
 }
 
 #Proyectos{
     flex-direction: column;
-    padding-top: 7em;
+    padding-top: 1em;
     display: flex;
     height: 34em;
 }
@@ -123,21 +165,36 @@ body{
     justify-content: space-around;
 }
 
+#arriba2{
+    justify-content: center;
+    display: flex;
+}
+
 #tiProyectos{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: white;
-    padding-bottom: 2em;
-    font-size: 1.9em;
+    padding-bottom: 1em;
+    font-size: 3em;
+}
+
+#logoproyecto{
+    width: 3em;
+    height: 3em;
+    padding-right: 1.5em;
+    padding-top: 3.3em;
 }
 
 #primera{
     border-radius: 10px;
-    border: 3px solid #b91817 ;
     align-items: center;
     text-align: center;
     width: 20em;
     height: 20em;
     text-decoration: none;
+}
+
+#primera:hover{
+    border: 1px solid #b91817 ;
 }
 
 #cohete{
@@ -151,18 +208,21 @@ body{
 #textSpacex{
     font-size: 1em;
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 #segunda{
     border-radius: 10px;
-    border: 3px solid #b91817 ;
     align-items: center;
     text-align: center;
     width: 20em;
     height: 20em;
     text-decoration: none;
+}
+
+#segunda:hover{
+    border: 1px solid #b91817;
 }
 
 #kario{
@@ -176,18 +236,21 @@ body{
 #textKario{
     font-size: 1em;
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 #tercera{
     border-radius: 10px;
-    border: 3px solid #b91817 ;
     align-items: center;
     text-align: center;
     width: 20em;
     height: 20em;
     text-decoration: none;
+}
+
+#tercera:hover{
+    border: 1px solid #b91817 ;
 }
 
 #mywork{
@@ -201,69 +264,103 @@ body{
 #textMysql{
     font-size: 1em;
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 #habilidades{
-    padding-top: 5em;
-    height: 34em;
+    height: 24em;
+}
+
+#logohabilidades{
+    width: 3em;
+    height: 3em;
+    padding-right: 1.5em;
+    padding-top: 3.3em;
 }
 
 #tiHabilidades{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: white;
-    font-size: 1.9em;
+    font-size: 3em;
 }
 
 #lenguajes{
+    scrollbar-width: none;
+    overflow-y: scroll;
+    width: 40em;
+    height: 13em;
     justify-content: center;
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    background-color: #e3e3e3;
+    border-radius: 1em;
+}
+
+#cen{
+    display: flex;
+    justify-content: center;
 }
 
 #fojava{
+    margin-top: 2em;
     border-radius: 3em;
     padding: 2em;
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 7em;
 }
 
 #fopython{
+    margin-top: 2em;
     border-radius: 3em;
     padding: 2em;
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 7em;
 }
 
 #fohtml{
+    margin-top: 2em;
     border-radius: 3em;
     padding: 2em;
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 7em;
 }
 
 #fospring{
+    margin-top: 2em;
     border-radius: 3em;
     padding: 2em;
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 7em;
 }
 
 #foMysql{
+    margin-top: 2em;
     border-radius: 3em;
     padding: 2em;
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 7em;
+}
+
+#logoherramientas{
+    width: 5em;
+    height: 3em;
+    padding-top: 3.3em;
 }
 
 #tiherramientas{
-    color: white;
-    font-size: 1.9em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
     text-align: center;
 }
 
 #Herramientas{
+    flex-direction: column;
+    justify-content: center;
+    height: 25em;
+}
+
+#acomodar{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -271,35 +368,34 @@ body{
 
 #fofigma{
     border-radius: 3em;
-    padding: 2em;
-    width: 10em;
-    height: 9em;
+    padding: 1em;
+    width: 9em;
+    height: 6em;
 }
 
 #fovisual{
     border-radius: 3em;
-    padding: 2em;
-    width: 10em;
-    height: 9em;
+    padding: 1em;
+    width: 6em;
+    height: 6em;
 }
 
 #focanva{
     border-radius: 3em;
-    padding: 2em;
+    padding: 1em;
     width: 10em;
-    height: 9em;
+    height: 6em;
 }
 
 #fonetbe{
     border-radius: 3em;
-    padding: 2em;
-    width: 10em;
-    height: 9em;
+    padding: 1em;
+    width: 12em;
+    height: 6em;
 }
 
 #contactos{
-    padding-top: 15em;
-    height: 38em;
+    height: 20em;
     display:flex;
     flex-direction: column;
 }
@@ -309,22 +405,33 @@ body{
     display: flex;
 }
 
+#logocontacto{
+    width: 3em;
+    height: 3em;
+    padding-right: 1em;
+    padding-top: 3.3em;
+}
+
 #ticontactos{
-    color: white;
-    font-size: 1.9em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
     text-align: center;
 }
 
 #fogit{
     border-radius: 3em;
     padding: 2em;
-    width: 10em;
-    height: 9em;
+    width: 8em;
+    height: 6em;
 }
 
 #folinke{
     border-radius: 3em;
     padding: 2em;
-    width: 10em;
-    height: 9em;
+    width: 8em;
+    height: 6em;
+}
+
+#footer{
+    text-align: center;
 }
