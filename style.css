@@ -22,6 +22,10 @@ body{
     display: flex;
 }
 
+#textosMedia{
+    display: none;
+}
+
 
 #l{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -42,12 +46,6 @@ body{
     padding-top: 0.5em;
     width: 4em;
     height: 4em;
-}
-
-.linea2{
-    box-shadow: 1px 1px 20px #CBCACF;
-    width: 98.3vw;
-    height: 0.2em;
 }
 
 #medio{
@@ -112,7 +110,7 @@ body{
 #im{
     width: 24em;
     height: 24em;
-    border-radius: 20px;
+    border-radius: 50em;
     margin-top: 6em;
 }
 
@@ -121,13 +119,12 @@ body{
     margin-top: 2em;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
     height: 34em;
 }
 
 #arriba{
     display: flex;
+    justify-content: center;
 }
 
 #logosobremi{
@@ -140,18 +137,40 @@ body{
 #tituSobre{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
-    color: #0f2f57;
+    color: #ffffff;
 }
 
 #caja{
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cajatext{
     width: 40em;
 }
 
+#fotobrazos{
+    margin-top: -5em;
+    width: 25em;
+    height: 25em;
+    z-index: 100;
+}
+
 #text, #text2{
-    padding-bottom: 0.4em;
-    font-size: 1.35em;
+    margin-top: 1.5em;
+    font-size: 1.6em;
     color: #0f2f57;
+}
+
+#forma{
+    justify-content: center;
+    display: flex;
+    --size: 330px;
+    background: linear-gradient(white,#0f2f57);
+
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50% 0 50% 0;
 }
 
 #Proyectos{
@@ -177,6 +196,7 @@ body{
     text-align: center;
     padding-bottom: 1em;
     font-size: 3em;
+    color: #ffffff;
 }
 
 #logoproyecto{
@@ -191,28 +211,64 @@ body{
     align-items: center;
     text-align: center;
     width: 20em;
-    height: 20em;
+    height: 21em;
     text-decoration: none;
-    background-color: aqua;
+    background: linear-gradient(#0f2f57,white);
+    box-shadow: 0px 3px 20px;
 }
 
 #primera:hover{
-    border: 1px solid #b91817 ;
+    border: 1.8px solid white;
+}
+
+#spacex{
+    border-radius: 10px;
 }
 
 #cohete{
-    border-radius: 30px;
+    border-radius: 20px;
     margin-top: 1em;
     text-decoration: none;
     width: 7em;
     height: 7em;
+    box-shadow: 0px 5px 20px white;
 }
 
 #textSpacex{
     font-size: 1em;
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
+}
+
+#boton2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 10em;
+    height: 2em;
+    border-radius: 2em;
+    border:1px #4b6b8b solid ;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.8em;
+    color: #0f2f57;
+}
+
+#boton2:hover{
+    width: 10.2em;
+    height: 2.1em;
+}
+
+#elboton2{
+    color: #0f2f57;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+#colorletra{
+    color: #0f2f57;
 }
 
 #segunda{
@@ -220,20 +276,23 @@ body{
     align-items: center;
     text-align: center;
     width: 20em;
-    height: 20em;
+    height: 21em;
     text-decoration: none;
+    background: linear-gradient(#0f2f57,white);
+    box-shadow: 0px 3px 20px;
 }
 
 #segunda:hover{
-    border: 1px solid #b91817;
+    border: 2px solid white;
 }
 
-#kario{
-    border-radius: 30px;
-    padding-top: 1em;
+#fotokario{
+    border-radius: 20px;
+    margin-top: 1em;
     text-decoration: none;
-    width: 9em;
-    height: 14em;
+    width: 7em;
+    height: 7em;
+    box-shadow: 0px 5px 20px white;
 }
 
 #textKario{
@@ -248,31 +307,24 @@ body{
     align-items: center;
     text-align: center;
     width: 20em;
-    height: 20em;
+    height: 21em;
     text-decoration: none;
+    background: linear-gradient(#0f2f57,white);
+    box-shadow: 0px 3px 20px;
 }
 
 #tercera:hover{
-    border: 1px solid #b91817 ;
+    border: 2px solid white ;
 }
 
-#mywork{
-    border-radius: 30px;
-    padding-top: 1em;
-    text-decoration: none;
-    width: 11em;
-    height: 14em;
-}
-
-#textMysql{
-    font-size: 1em;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-}
 
 #habilidades{
-    height: 24em;
+    height: 19em;
+}
+
+#arriba3{
+    display: flex;
+    padding-left: 5em;
 }
 
 #logohabilidades{
@@ -284,65 +336,68 @@ body{
 
 #tiHabilidades{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
     font-size: 3em;
+    color: white;
 }
 
 #lenguajes{
     scrollbar-width: none;
     overflow-y: scroll;
-    width: 40em;
-    height: 13em;
+    width: 50em;
+    height: 8em;
     justify-content: center;
     text-align: center;
     display: flex;
-    background-color: #e3e3e3;
+    background-color: #4b6b8b;
     border-radius: 1em;
+    overflow: hidden;
 }
 
 #cen{
     display: flex;
-    justify-content: center;
+    padding-left: 5em;
 }
 
 #fojava{
     margin-top: 2em;
-    border-radius: 3em;
-    padding: 2em;
-    width: 8em;
-    height: 7em;
+    border-radius: 1em;
+    width: 7em;
+    height: 6em;
 }
 
 #fopython{
-    margin-top: 2em;
     border-radius: 3em;
     padding: 2em;
-    width: 8em;
-    height: 7em;
+    width: 7em;
+    height: 6em;
 }
 
 #fohtml{
     margin-top: 2em;
+    border-radius: 1em;
+    width: 7em;
+    height: 6em;
+}
+
+#foMysql{
     border-radius: 3em;
     padding: 2em;
-    width: 8em;
-    height: 7em;
+    width: 7em;
+    height: 6em;
 }
 
 #fospring{
     margin-top: 2em;
-    border-radius: 3em;
-    padding: 2em;
-    width: 8em;
-    height: 7em;
+    border-radius: 1em;
+    width: 7em;
+    height: 6em;
 }
 
-#foMysql{
-    margin-top: 2em;
+#fojavaScript{
     border-radius: 3em;
     padding: 2em;
-    width: 8em;
-    height: 7em;
+    width: 7em;
+    height: 6em;
 }
 
 #logoherramientas{
@@ -355,18 +410,38 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
     text-align: center;
+    color: white;
 }
 
 #Herramientas{
     flex-direction: column;
     justify-content: center;
-    height: 25em;
+    height: 19em;
+}
+
+#arriba4{
+    display: flex;
+    justify-content: right;
+    padding-right: 6em;
+}
+
+#izquierda{
+    display: flex;
+    justify-content: right;
+    padding-right: 5em;
 }
 
 #acomodar{
-    flex-wrap: wrap;
-    display: flex;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    width: 50em;
+    height: 8em;
     justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: #4b6b8b;
+    border-radius: 1em;
+    overflow: hidden;
 }
 
 #fofigma{
@@ -403,11 +478,6 @@ body{
     flex-direction: column;
 }
 
-#acomodo{
-    justify-content: center;
-    display: flex;
-}
-
 #logocontacto{
     width: 3em;
     height: 3em;
@@ -419,22 +489,233 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3em;
     text-align: center;
+    color: white;
+}
+
+#cen1{
+    display: flex;
+    justify-content: center;
+}
+
+#carta{
+    background-color: white;
+    width: 35em;
+    height: 25em;
+    border-radius: 2em;
+}
+
+#textcarta{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1.1em;
+    color: #0f2f57;
+}
+
+#imgcontactos{
+    margin-top: 2em;
+    justify-content: space-evenly;
+    display: flex;
 }
 
 #fogit{
-    border-radius: 3em;
-    padding: 2em;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 1em;
     width: 8em;
     height: 6em;
 }
 
 #folinke{
-    border-radius: 3em;
-    padding: 2em;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 1em;
     width: 8em;
     height: 6em;
 }
 
 #footer{
-    text-align: center;
+    display: flex;
+    margin-top: 30em;
+    justify-content: center;
 }
+
+#fogit1{
+    margin-left: 1em;
+    border-radius: 0.2em;
+    margin-top: 0.5em;
+    width: 3em;
+    height: 2em;
+}
+
+#folinke1{
+    border-radius: 0.2em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 3em;
+    height: 2em;
+}
+
+@media only screen and (max-width: 821px){
+
+    #l{
+        font-size: 1.2em;
+    }
+    #primera{
+        margin-bottom: 2em;
+    }
+
+    #segunda{
+        margin-bottom: 2em;
+    }
+
+    #tercera{
+        margin-bottom: 2em;
+    }
+
+    #cajatext{
+        width: 20em;
+    }
+
+    #text{
+        font-size: 1.4em;
+    }
+
+    #habilidades{
+        margin-top: 30em;
+    }
+
+    #lenguajes{
+        margin-left: -1em;
+        width: 40em;
+    }
+
+    #footer{
+        margin-top: 20em;
+    }
+}
+
+
+@media only screen and (max-width: 643px){
+    #Proyectos{
+        margin-top: 6em;
+    }
+
+    #habilidades{
+        margin-top: 50em;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 431px){
+
+    #cajatext{
+        width: 20em;
+    }
+
+    #textos{
+        font-size: 0.6em;
+    }
+
+    #medio{
+        display: block;
+    }
+    
+    #letras{
+        margin-top: 3em;
+        margin-left: 0.7em;
+    }
+    
+    #im{
+        margin-left: 1em;
+    }
+
+    #titusobre{
+        font-size: 2em;
+    }
+
+    #sobreMi{
+        display: block;
+        margin-top: 15em
+    }
+
+    #fotobrazos{
+        width: 15em;
+    }
+
+    #text{
+        width: 12em;
+        font-size: 1.5em;
+    }
+
+    #forma{
+        margin-top: 30em;
+        margin-left: -20em;
+    }
+
+    #tituproyectos{
+        font-size: 2em;
+    }
+
+    #Proyectos{
+        margin-top: 26em;
+    }
+
+    #primera{
+        margin-bottom: 2em;
+    }
+
+    #segunda{
+        margin-bottom: 2em;
+    }
+
+    #tercera{
+        margin-bottom: 2em;
+    }
+
+    #habilidades{
+        margin-top: 47em;
+    }
+
+    #tituHabilidades{
+        font-size: 2em;
+    }
+
+    #arriba3{
+        margin-left: -2.5em;
+    }
+
+    #cen{
+        margin-left: -2em;
+    }
+
+    #lenguajes{
+        width: 20em;
+    }
+
+    #arriba4{
+        margin-left: 25em;
+    }
+
+    #izquierda{
+        margin-left: 5em
+    }
+
+    #ticontactos{
+        font-size: 2em;
+    }
+
+    #carta{
+        width: 20em;
+        height: 30em;
+    }
+
+   #footer{
+    margin-left: 2em;
+    margin-top: 17em;
+    width: 20em;
+   }
+}
+
+
